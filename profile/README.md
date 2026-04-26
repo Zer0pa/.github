@@ -44,7 +44,43 @@ Negatives are results. When a modality or approach fails under rigorous falsific
 
 ## Where Work Lives
 
-Each active product is its own repository. Start with any repo that matches your interest; each one is self-contained.
+Each active product is its own repository — self-contained, with its own README, CI, proof artefacts, and Verdict. The full live index follows; see each repo's README for headline metrics, comp benchmarks where applicable, and current state.
+
+### ZPE — Encoding Products (17 public lanes)
+
+- [ZPE-Bio](https://github.com/Zer0pa/ZPE-Bio) — Deterministic ECG codec; Python + Rust core; 100% integrity across MIT-BIH, NSTDB, EDB, PTB-XL
+- [ZPE-Diagram](https://github.com/Zer0pa/ZPE-Diagram) — Deterministic structural-with-style diagram codec; SVG line-graph transport
+- [ZPE-FT](https://github.com/Zer0pa/ZPE-FT) — Deterministic financial time-series codec; pattern search; parquet+zstd+DuckDB comparator
+- [ZPE-Geo](https://github.com/Zer0pa/ZPE-Geo) — Deterministic geospatial trajectory codec; H3 indexing; Douglas-Peucker comparator
+- [ZPE-Image](https://github.com/Zer0pa/ZPE-Image) — Deterministic sparse-stroke image codec; geometry-layer encoding for glyphs and skeletons
+- [ZPE-Ink](https://github.com/Zer0pa/ZPE-Ink) — Deterministic digital-ink codec (`.zpink`); CRC-framed lossless stroke roundtrip
+- [ZPE-IoT](https://github.com/Zer0pa/ZPE-IoT) — Deterministic IoT sensor codec; 1D time-series; Rust core + PyO3 bindings; zstd/lz4/zlib/gorilla comparators
+- [ZPE-Mental](https://github.com/Zer0pa/ZPE-Mental) — Deterministic endogenous visual form codec; Klüver taxonomy (tunnel, spiral, lattice, cobweb)
+- [ZPE-Mocap](https://github.com/Zer0pa/ZPE-Mocap) — Deterministic motion capture codec; CMU corpus; ACL comparator
+- [ZPE-Music](https://github.com/Zer0pa/ZPE-Music) — Deterministic symbolic-score codec; MusicXML roundtrip with note-local expression refinement
+- [ZPE-Neuro](https://github.com/Zer0pa/ZPE-Neuro) — Deterministic neural signal codec; extracellular spike events; DANDI-anchored
+- [ZPE-Prosody](https://github.com/Zer0pa/ZPE-Prosody) — Deterministic speech prosody codec; F0 / energy / duration / voiced-mask contour bundles
+- [ZPE-Robotics](https://github.com/Zer0pa/ZPE-Robotics) — Deterministic motion kernel; Wire-V1 transport; replay + search-without-decode; LeRobot benchmark
+- [ZPE-Smell](https://github.com/Zer0pa/ZPE-Smell) — Deterministic smell codec; surrogate receptor-response encoding (research-in-progress)
+- [ZPE-Taste](https://github.com/Zer0pa/ZPE-Taste) — Bounded-negative evidence record (the lane object did not sustain honest geometric structure on the committed evaluation)
+- [ZPE-Touch](https://github.com/Zer0pa/ZPE-Touch) — Deterministic touch stream codec; contact + thermal + vibrotactile + proprioceptive branch isolation
+- [ZPE-XR](https://github.com/Zer0pa/ZPE-XR) — Deterministic XR hand-stream codec; pose compression; ContactPose benchmark
+
+Cipher and Video are in private development; Rosetta is currently incubated within Cipher and will graduate when the work matures.
+
+### DM3 — Deterministic Computation
+
+- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact; substrate-invariance across mobile SoC tested axes; NIST-KAT trust chain
+
+### Zero Class — Design Physics
+
+- [ZeroShip](https://github.com/Zer0pa/ZeroShip) — Ship-first engineering platform; design-physics at ship scale
+- [Zero-Class-Vessel-Hull-20098](https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098) — Hydrogen-electric commercial freighter concept (Hull 20098)
+
+### Infrastructure
+
+- [.github](https://github.com/Zer0pa/.github) — Organization profile and community health files
+- [workflows](https://github.com/Zer0pa/workflows) — Reusable GitHub Actions workflows (release pipelines, validation surfaces)
 
 ---
 
