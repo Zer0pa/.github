@@ -20,9 +20,16 @@ Per-modality geometric encoding. Each product addresses a specific signal or str
 
 Taste is published as an evidenced negative — a formally tested modality where the current lane object does not sustain honest geometric structure. Negatives are first-class results.
 
-### DM3 — Deterministic Computation
+### Computation — DM3 + Genesis
 
-A deterministic mathematical artefact whose output is invariant across the tested substrate axes of a commodity mobile SoC, attested by a NIST-KAT trust chain. Gate surface identified by canonical SHA; dynamics-layer basin distribution holds across four independent substrate conditions. The category this opens is determinism-as-a-service for mobile computation — a property of the device, not a privilege of the datacenter.
+A paired voyage on a single scientific question: are deterministic dynamical systems on settled algebraic substrates a viable computational substrate? DM3 and Genesis are two graphs related by one discrete fiber-promotion step on the same path base, exercised on the same commodity Android SoC. We work the question from both ends — DM3 backwards from a closed binary, Genesis forwards from open Rust source — because each end constrains what the other can claim. Darwin had The Beagle; we have silicon.
+
+The geometric finding is exact. DM3's loaded fixture is the Cartesian product `P_95 ☐ K_4` (380 vertices, source-unrecovered, runtime-only), Genesis is `P_95 ☐ K_3` (285 vertices, source-available, deterministic Rust pipeline over `Q`-Pythagorean rationals); the two share the same 95-station path base and differ by one discrete `K_3 → K_4` complete-graph fiber promotion. The source-built mesh authority is byte-identical between the two bundles at `dual_meru_mesh.ply` SHA `7ee17457...` — the same upstream Rust pipeline (`yantra_2d → lift_3d → yantra_3d_dual`) generates both.
+
+What is settled: 1560 cross-replicate canonical-hash matches on Genesis (`97bd7d…`, zero divergence across 60+300+1200 invocations on commodity Android), ARM64 cross-platform determinism on DM3 (claim τ; bit-exact on five `--steps` values, RM10 vs M1 ARM64 AVD), and static Tier-2 reconstruction of DM3's loaded fixture and internal default skeleton. What is open: DM3's R8 live runtime trace remains `OPEN_TIER3_BLOCKED`; Genesis Phase 2 K2_SWEEP receipts and the four pre-registered comparisons (cycle-7 attribution, s50-cliff attribution, σ″-curve shape, D₆-vs-C₃ symmetry) are pending, with one EARLY-SIGNAL on the σ″-curve shape that is not yet a settled verdict. Both confirmation and falsification are publishable.
+
+- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact; ARM64 cross-platform determinism (claim τ); static Tier-2 substrate identification (R8 open); SAL-RRL v1.0
+- Genesis — Comparative determinism experiment; 1560/1560 byte-identical canonical hashes on RM10; Phase 2 K2_SWEEP pending; SAL v7.0; internal repository
 
 ### Zero Class — Design Physics
 
@@ -68,9 +75,10 @@ Each active product is its own repository — self-contained, with its own READM
 
 Cipher and Video are in private development; Rosetta is currently incubated within Cipher and will graduate when the work matures.
 
-### DM3 — Deterministic Computation
+### Computation — DM3 + Genesis
 
-- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact; substrate-invariance across mobile SoC tested axes; NIST-KAT trust chain
+- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact on `P_95 ☐ K_4` loaded fixture; claim τ ARM64 cross-platform determinism; R8 runtime trace open
+- Genesis — Comparative determinism experiment on `P_95 ☐ K_3`; 1560/1560 byte-identical canonical hashes on RM10; Phase 2 K2_SWEEP pending (internal repository)
 
 ### Zero Class — Design Physics
 
