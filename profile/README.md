@@ -20,9 +20,16 @@ Per-modality geometric encoding. Each product addresses a specific signal or str
 
 Taste is published as an evidenced negative — a formally tested modality where the current lane object does not sustain honest geometric structure. Negatives are first-class results.
 
-### DM3 — Deterministic Computation
+### Computation — DM3 + Genesis
 
-A deterministic mathematical artefact whose output is invariant across the tested substrate axes of a commodity mobile SoC, attested by a NIST-KAT trust chain. Gate surface identified by canonical SHA; dynamics-layer basin distribution holds across four independent substrate conditions. The category this opens is determinism-as-a-service for mobile computation — a property of the device, not a privilege of the datacenter.
+A paired voyage on a single scientific question: are deterministic dynamical systems on settled algebraic substrates a viable computational substrate? DM3 and Genesis are two graphs related by one discrete fiber-promotion step on the same path base, exercised on the same commodity Android SoC. We work the question from both ends — DM3 backwards from a closed binary, Genesis forwards from open Rust source — because each end constrains what the other can claim. Darwin had The Beagle; we have silicon.
+
+The geometric finding is exact. DM3's loaded fixture is the Cartesian product `P_95 ☐ K_4` (380 vertices, source-unrecovered, runtime-only), Genesis is `P_95 ☐ K_3` (285 vertices, source-available, deterministic Rust pipeline over `Q`-Pythagorean rationals); the two share the same 95-station path base and differ by one discrete `K_3 → K_4` complete-graph fiber promotion. The source-built mesh authority is byte-identical between the two bundles at `dual_meru_mesh.ply` SHA `7ee17457...` — the same upstream Rust pipeline (`yantra_2d → lift_3d → yantra_3d_dual`) generates both.
+
+What is settled: 31,560 cross-replicate canonical-hash matches on Genesis (`97bd7d…`, zero divergence across four BITDET cells totalling 60+300+1200+30000 invocations on commodity Android), ARM64 cross-platform determinism on DM3 (claim τ; bit-exact on five `--steps` values, RM10 vs M1 ARM64 AVD), static Tier-2 reconstruction of DM3's loaded fixture and internal default skeleton, and three of four Genesis-side pre-registered comparisons against `dm3_runner` — cycle-7 AUGMENTATION-ATTRIBUTED, s50-cliff CONFIRMED (Genesis does not cliff), σ″-curve shape diff CONFIRMED (Genesis is flat at `3.000000` across `[S20, S56]` with a real pre-convergence transient at `S2 = 6.5`). What is open: DM3's R8 live runtime trace remains `OPEN_TIER3_BLOCKED`; the fourth Genesis comparison (D₆-vs-C₃ symmetry) remains PENDING until a Z₂-asymmetric observable is designed and pre-registered; Phase 3 prep is running on RM10. The pattern-degenerate alternative reading for the flat σ″ remains explicitly preserved in Genesis's `project_contract.json` `uncertainty_markers`. Both confirmation and falsification are publishable.
+
+- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact; ARM64 cross-platform determinism (claim τ); static Tier-2 substrate identification (R8 open); DM3 RRL v1.0
+- Genesis — Comparative determinism experiment; 31,560/31,560 byte-identical canonical hashes on RM10; three of four cross-lane comparisons confirmed (D₆-vs-C₃ pending); SAL v7.0; internal repository
 
 ### Zero Class — Design Physics
 
@@ -68,9 +75,10 @@ Each active product is its own repository — self-contained, with its own READM
 
 Cipher and Video are in private development; Rosetta is currently incubated within Cipher and will graduate when the work matures.
 
-### DM3 — Deterministic Computation
+### Computation — DM3 + Genesis
 
-- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact; substrate-invariance across mobile SoC tested axes; NIST-KAT trust chain
+- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact on `P_95 ☐ K_4` loaded fixture; claim τ ARM64 cross-platform determinism; R8 runtime trace open
+- Genesis — Comparative determinism experiment on `P_95 ☐ K_3`; 31,560/31,560 byte-identical canonical hashes on RM10; three of four cross-lane comparisons confirmed (D₆-vs-C₃ pending; internal repository)
 
 ### Zero Class — Design Physics
 
