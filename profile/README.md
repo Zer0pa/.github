@@ -28,7 +28,7 @@ The geometric finding is exact. DM3's loaded fixture is the Cartesian product `P
 
 What is settled: 1560 cross-replicate canonical-hash matches on Genesis (`97bd7d…`, zero divergence across 60+300+1200 invocations on commodity Android), ARM64 cross-platform determinism on DM3 (claim τ; bit-exact on five `--steps` values, RM10 vs M1 ARM64 AVD), and static Tier-2 reconstruction of DM3's loaded fixture and internal default skeleton. What is open: DM3's R8 live runtime trace remains `OPEN_TIER3_BLOCKED`; Genesis Phase 2 K2_SWEEP receipts and the four pre-registered comparisons (cycle-7 attribution, s50-cliff attribution, σ″-curve shape, D₆-vs-C₃ symmetry) are pending, with one EARLY-SIGNAL on the σ″-curve shape that is not yet a settled verdict. Both confirmation and falsification are publishable.
 
-- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact; ARM64 cross-platform determinism (claim τ); static Tier-2 substrate identification (R8 open); SAL-RRL v1.0
+- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact; ARM64 cross-platform determinism (claim τ); static Tier-2 substrate identification (R8 open); DM3 RRL v1.0
 - Genesis — Comparative determinism experiment; 1560/1560 byte-identical canonical hashes on RM10; Phase 2 K2_SWEEP pending; SAL v7.0; internal repository
 
 ### Zero Class — Design Physics
