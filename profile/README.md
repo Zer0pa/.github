@@ -26,10 +26,10 @@ A paired voyage on a single scientific question: are deterministic dynamical sys
 
 The geometric finding is exact. DM3's loaded fixture is the Cartesian product `P_95 ☐ K_4` (380 vertices, source-unrecovered, runtime-only), Genesis is `P_95 ☐ K_3` (285 vertices, source-available, deterministic Rust pipeline over `Q`-Pythagorean rationals); the two share the same 95-station path base and differ by one discrete `K_3 → K_4` complete-graph fiber promotion. The source-built mesh authority is byte-identical between the two bundles at `dual_meru_mesh.ply` SHA `7ee17457...` — the same upstream Rust pipeline (`yantra_2d → lift_3d → yantra_3d_dual`) generates both.
 
-What is settled: 1560 cross-replicate canonical-hash matches on Genesis (`97bd7d…`, zero divergence across 60+300+1200 invocations on commodity Android), ARM64 cross-platform determinism on DM3 (claim τ; bit-exact on five `--steps` values, RM10 vs M1 ARM64 AVD), and static Tier-2 reconstruction of DM3's loaded fixture and internal default skeleton. What is open: DM3's R8 live runtime trace remains `OPEN_TIER3_BLOCKED`; Genesis Phase 2 K2_SWEEP receipts and the four pre-registered comparisons (cycle-7 attribution, s50-cliff attribution, σ″-curve shape, D₆-vs-C₃ symmetry) are pending, with one EARLY-SIGNAL on the σ″-curve shape that is not yet a settled verdict. Both confirmation and falsification are publishable.
+What is settled: 31,560 cross-replicate canonical-hash matches on Genesis (`97bd7d…`, zero divergence across four BITDET cells totalling 60+300+1200+30000 invocations on commodity Android), ARM64 cross-platform determinism on DM3 (claim τ; bit-exact on five `--steps` values, RM10 vs M1 ARM64 AVD), static Tier-2 reconstruction of DM3's loaded fixture and internal default skeleton, and three of four Genesis-side pre-registered comparisons against `dm3_runner` — cycle-7 AUGMENTATION-ATTRIBUTED, s50-cliff CONFIRMED (Genesis does not cliff), σ″-curve shape diff CONFIRMED (Genesis is flat at `3.000000` across `[S20, S56]` with a real pre-convergence transient at `S2 = 6.5`). What is open: DM3's R8 live runtime trace remains `OPEN_TIER3_BLOCKED`; the fourth Genesis comparison (D₆-vs-C₃ symmetry) remains PENDING until a Z₂-asymmetric observable is designed and pre-registered; Phase 3 prep is running on RM10. The pattern-degenerate alternative reading for the flat σ″ remains explicitly preserved in Genesis's `project_contract.json` `uncertainty_markers`. Both confirmation and falsification are publishable.
 
 - [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact; ARM64 cross-platform determinism (claim τ); static Tier-2 substrate identification (R8 open); DM3 RRL v1.0
-- Genesis — Comparative determinism experiment; 1560/1560 byte-identical canonical hashes on RM10; Phase 2 K2_SWEEP pending; SAL v7.0; internal repository
+- Genesis — Comparative determinism experiment; 31,560/31,560 byte-identical canonical hashes on RM10; three of four cross-lane comparisons confirmed (D₆-vs-C₃ pending); SAL v7.0; internal repository
 
 ### Zero Class — Design Physics
 
@@ -78,7 +78,7 @@ Cipher and Video are in private development; Rosetta is currently incubated with
 ### Computation — DM3 + Genesis
 
 - [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact on `P_95 ☐ K_4` loaded fixture; claim τ ARM64 cross-platform determinism; R8 runtime trace open
-- Genesis — Comparative determinism experiment on `P_95 ☐ K_3`; 1560/1560 byte-identical canonical hashes on RM10; Phase 2 K2_SWEEP pending (internal repository)
+- Genesis — Comparative determinism experiment on `P_95 ☐ K_3`; 31,560/31,560 byte-identical canonical hashes on RM10; three of four cross-lane comparisons confirmed (D₆-vs-C₃ pending; internal repository)
 
 ### Zero Class — Design Physics
 
