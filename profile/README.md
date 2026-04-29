@@ -28,8 +28,8 @@ The geometric finding is exact. DM3's loaded fixture is the Cartesian product `P
 
 What is settled: 31,560 cross-replicate canonical-hash matches on Genesis (`97bd7d…`, zero divergence across four BITDET cells totalling 60+300+1200+30000 invocations on commodity Android), ARM64 cross-platform determinism on DM3 (claim τ; bit-exact on five `--steps` values, RM10 vs M1 ARM64 AVD), static Tier-2 reconstruction of DM3's loaded fixture and internal default skeleton, and three of four Genesis-side pre-registered comparisons against `dm3_runner` — cycle-7 AUGMENTATION-ATTRIBUTED, s50-cliff CONFIRMED (Genesis does not cliff), σ″-curve shape diff CONFIRMED (Genesis is flat at `3.000000` across `[S20, S56]` with a real pre-convergence transient at `S2 = 6.5`). What is open: DM3's R8 live runtime trace remains `OPEN_TIER3_BLOCKED`; the fourth Genesis comparison (D₆-vs-C₃ symmetry) remains PENDING until a Z₂-asymmetric observable is designed and pre-registered; Phase 3 prep is running on RM10. The pattern-degenerate alternative reading for the flat σ″ remains explicitly preserved in Genesis's `project_contract.json` `uncertainty_markers`. Both confirmation and falsification are publishable.
 
-- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact; ARM64 cross-platform determinism (claim τ); static Tier-2 substrate identification (R8 open); DM3 RRL v1.0
-- Genesis — Comparative determinism experiment; 31,560/31,560 byte-identical canonical hashes on RM10; three of four cross-lane comparisons confirmed (D₆-vs-C₃ pending); SAL v7.0; internal repository
+- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact; ARM64 cross-platform determinism (claim τ); static Tier-2 substrate identification (R8 open); Genesis-DM3 RRL v1.0 (Master Resolver: [Zer0pa/ZPE-License-Commercial](https://github.com/Zer0pa/ZPE-License-Commercial))
+- Genesis — Comparative determinism experiment; 31,560/31,560 byte-identical canonical hashes on RM10; three of four cross-lane comparisons confirmed (D₆-vs-C₃ pending); Genesis-DM3 RRL v1.0 (paired with DM3 as Covered Artefacts); internal repository
 
 ### Zero Class — Design Physics
 
