@@ -1,97 +1,117 @@
 # Zer0pa
 
-Encoding, computation, and design at the frontier of information theory, computational physics, and engineered minimalism. Published in public repositories, from the south end of the map.
+Zer0pa is a South African research and engineering company building falsifiable systems across encoding, computation, scientific pipelines, and ship-scale design.
 
-## What Zer0pa Is
+The company is not one monolithic platform. It is a portfolio of bounded products and research surfaces. Each repo states what it is, what it proves, what it does not claim, which evidence anchors exist, and which blocker still governs readiness.
 
-Zer0pa is a research and engineering laboratory organised as a portfolio of independent products. Each product is its own invention, its own codec or artefact, its own commercial story. The portfolio is held together by a shared philosophy, not a shared implementation.
+## What We Build
 
-## The Philosophy — Why "Zero Point"
+| Corridor | Public now | Staged / gated | What it is |
+|---|---:|---:|---|
+| ZPE encoding | 17 | 2 | Deterministic codecs and transport formats for signals, motion, perception, geometry, and embodied data. |
+| Computation | 1 | 1 | Deterministic substrate experiments on paired graph systems. |
+| Gnosis methods | 4 | 0 | Falsification, benchmark, glyph, and negative-control methodology. |
+| Scientific pipelines | 0 | 8 | On-device AI and scientific workstreams for biology, materials, energy, crops, synthetic biology, and content engines. |
+| Ship design | 2 | 0 | Public showcase surfaces for ship-design architecture and Hull 20098 authority state. |
 
-In physics, the zero point is the ground state — what is always there, what cannot be removed. Zero point encoding applies the same posture to information: find the minimal, fundamental representation for a signal or structure in its native domain, and ship from that frontier. The ground state of a domain is where foundational work actually happens. That is where we work.
+Public means visible on GitHub today. Staged / gated means the repo is part of the current portfolio perimeter but remains private or internal until the relevant evidence, access, or operator publication gate opens.
 
-## Portfolio
+## Operating Standard
 
-The portfolio spans three active categories and one emerging.
+Zer0pa repos are front doors, not pitch decks.
 
-### ZPE — Encoding Products
+- Claims are bounded to the repo and its evidence surface.
+- Negative results and blocked gates are first-class outputs.
+- Public READMEs preserve non-claims, licensing posture, and current readiness.
+- Private code, datasets, weights, CAD, raw CFD, partner material, and internal runtime systems are not granted by public description.
 
-Per-modality geometric encoding. Each product addresses a specific signal or structural domain under bounded scope, with honest negatives and real positives. Shipped products include touch, mental imagery, symbolic music, sparse-stroke image, and structural diagram encoding. Research-in-progress includes smell and several others — XR, FT, Geo, Video, IoT, Robotics, Ink, Mocap, Neuro, Prosody, Bio, Cipher. Products graduate from research to shipped when they earn it.
+## Public Repo Map
 
-Taste is published as an evidenced negative — a formally tested modality where the current lane object does not sustain honest geometric structure. Negatives are first-class results.
+### ZPE Encoding
 
-### Computation — DM3 + Genesis
+Deterministic representations for one bounded input domain at a time.
 
-A paired voyage on a single scientific question: are deterministic dynamical systems on settled algebraic substrates a viable computational substrate? DM3 and Genesis are two graphs related by one discrete fiber-promotion step on the same path base, exercised on the same commodity Android SoC. We work the question from both ends — DM3 backwards from a closed binary, Genesis forwards from open Rust source — because each end constrains what the other can claim. Darwin had The Beagle; we have silicon.
+| Repo | Scope |
+|---|---|
+| [ZPE-Bio](https://github.com/Zer0pa/ZPE-Bio) | ECG and biosignal encoding. |
+| [ZPE-Diagram](https://github.com/Zer0pa/ZPE-Diagram) | Structural diagram encoding. |
+| [ZPE-FT](https://github.com/Zer0pa/ZPE-FT) | Financial time-series encoding. |
+| [ZPE-Geo](https://github.com/Zer0pa/ZPE-Geo) | Geospatial trajectory encoding. |
+| [ZPE-Image](https://github.com/Zer0pa/ZPE-Image) | Sparse-stroke image geometry. |
+| [ZPE-Ink](https://github.com/Zer0pa/ZPE-Ink) | Digital ink stroke streams. |
+| [ZPE-IoT](https://github.com/Zer0pa/ZPE-IoT) | IoT sensor telemetry. |
+| [ZPE-Mental](https://github.com/Zer0pa/ZPE-Mental) | Endogenous visual-form geometry. |
+| [ZPE-Mocap](https://github.com/Zer0pa/ZPE-Mocap) | Motion capture streams. |
+| [ZPE-Music](https://github.com/Zer0pa/ZPE-Music) | Symbolic score encoding. |
+| [ZPE-Neuro](https://github.com/Zer0pa/ZPE-Neuro) | Neural spike-event encoding. |
+| [ZPE-Prosody](https://github.com/Zer0pa/ZPE-Prosody) | Speech prosody contours. |
+| [ZPE-Robotics](https://github.com/Zer0pa/ZPE-Robotics) | Robotics motion transport. |
+| [ZPE-Smell](https://github.com/Zer0pa/ZPE-Smell) | Olfactory receptor-panel encoding. |
+| [ZPE-Taste](https://github.com/Zer0pa/ZPE-Taste) | Bounded negative taste-geometry result. |
+| [ZPE-Touch](https://github.com/Zer0pa/ZPE-Touch) | Haptic and tactile contact streams. |
+| [ZPE-XR](https://github.com/Zer0pa/ZPE-XR) | XR hand-tracking streams. |
 
-The geometric finding is exact. DM3's loaded fixture is the Cartesian product `P_95 ☐ K_4` (380 vertices, source-unrecovered, runtime-only), Genesis is `P_95 ☐ K_3` (285 vertices, source-available, deterministic Rust pipeline over `Q`-Pythagorean rationals); the two share the same 95-station path base and differ by one discrete `K_3 → K_4` complete-graph fiber promotion. The source-built mesh authority is byte-identical between the two bundles at `dual_meru_mesh.ply` SHA `7ee17457...` — the same upstream Rust pipeline (`yantra_2d → lift_3d → yantra_3d_dual`) generates both.
+### Computation And Methods
 
-What is settled: 31,560 cross-replicate canonical-hash matches on Genesis (`97bd7d…`, zero divergence across four BITDET cells totalling 60+300+1200+30000 invocations on commodity Android), ARM64 cross-platform determinism on DM3 (claim τ; bit-exact on five `--steps` values, RM10 vs M1 ARM64 AVD), static Tier-2 reconstruction of DM3's loaded fixture and internal default skeleton, and three of four Genesis-side pre-registered comparisons against `dm3_runner` — cycle-7 AUGMENTATION-ATTRIBUTED, s50-cliff CONFIRMED (Genesis does not cliff), σ″-curve shape diff CONFIRMED (Genesis is flat at `3.000000` across `[S20, S56]` with a real pre-convergence transient at `S2 = 6.5`). What is open: DM3's R8 live runtime trace remains `OPEN_TIER3_BLOCKED`; the fourth Genesis comparison (D₆-vs-C₃ symmetry) remains PENDING until a Z₂-asymmetric observable is designed and pre-registered; Phase 3 prep is running on RM10. The pattern-degenerate alternative reading for the flat σ″ remains explicitly preserved in Genesis's `project_contract.json` `uncertainty_markers`. Both confirmation and falsification are publishable.
+Deterministic computation experiments and falsification-first research infrastructure.
 
-- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact; ARM64 cross-platform determinism (claim τ); static Tier-2 substrate identification (R8 open); Genesis-DM3 RRL v1.0 (Master Resolver: [Zer0pa/ZPE-License-Commercial](https://github.com/Zer0pa/ZPE-License-Commercial))
-- Genesis — Comparative determinism experiment; 31,560/31,560 byte-identical canonical hashes on RM10; three of four cross-lane comparisons confirmed (D₆-vs-C₃ pending); Genesis-DM3 RRL v1.0 (paired with DM3 as Covered Artefacts); internal repository
+| Repo | Scope |
+|---|---|
+| [DM3](https://github.com/Zer0pa/DM3) | 380-vertex C3-symmetric computation artefact. |
+| [Glyph-Engine](https://github.com/Zer0pa/Glyph-Engine) | Glyph descriptor extraction and owned-arm authority gates. |
+| [Indus-Valley](https://github.com/Zer0pa/Indus-Valley) | Indus-script anchor application with explicit non-decipherment posture. |
+| [Morph-Bench](https://github.com/Zer0pa/Morph-Bench) | Benchmark-first morphology and extraction method lane. |
+| [Cuneiform](https://github.com/Zer0pa/Cuneiform) | Negative-control and no-go preservation lane. |
 
-### Zero Class — Design Physics
+### Ship Design
 
-Design-physics engineering at the ship scale. Current work is the Zero Class Vessel Hull 20098 concept — a hydrogen-electric commercial freighter — and the ZeroShip platform that holds ship-design systems to scientific standards. Public surfaces publish architecture, authority, and honest boundaries without releasing private code, CAD, or partner data.
+Public showcase surfaces for ship-scale engineering. These repos publish architecture, authority state, and boundaries without releasing internal code, CAD, raw CFD, partner data, or manufacturing authority.
 
-### Rosetta — Ancient Language (Emerging)
+| Repo | Scope |
+|---|---|
+| [ZeroShip](https://github.com/Zer0pa/ZeroShip) | Ship-design platform showcase. |
+| [Zero-Class-Vessel-Hull-20098](https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098) | Hydrogen-electric commercial freighter concept, Hull 20098. |
 
-Machine learning on ancient scripts including cuneiform and Indus Valley. Currently incubated within ZPE-Cipher; will graduate to its own portfolio as the work matures. Scripts that fell silent for millennia learning, slowly, to travel again.
+## Staged / Gated Portfolio
 
-## How We Publish
+These repos are in the current company perimeter but are not public GitHub surfaces today.
 
-Always-in-beta is our commercial posture, not a hedge. Products ship when they have utility. They improve continuously because scientific and engineering breakthroughs do not arrive on a schedule. What you install today works. What you install next month may be materially better.
+| Repo | Status | Corridor |
+|---|---|---|
+| ZPE-Video | PRIVATE | ZPE encoding. |
+| ZPE-SPU | INTERNAL | ZPE encoding / substrate work. |
+| Genesis | INTERNAL | Computation sibling to DM3. |
+| Polymath-AI | PRIVATE | On-device LLM training on Snapdragon-class hardware. |
+| Polymath-Diffusion-AI | PRIVATE | On-device diffusion language-model reasoner. |
+| Bio-Molecular-Explorer | INTERNAL | Research-only bio-molecular evidence pipeline with cardiac CiPA wedge. |
+| Synthetic-Biology | INTERNAL | In silico metabolic-pathway engineering pipeline. |
+| Materials-Workbench | INTERNAL | Materials discovery workbench for battery and thermoelectric candidates. |
+| Energy-Physics-Pipeline | INTERNAL | Electrochemistry and fusion / plasma physics pipeline. |
+| Precision-Crop-Genomics | PRIVATE | License-clean precision crop-genomics platform. |
+| RCE | PRIVATE | Reductive Content Engine, enhancement programme. |
 
-Honest scope. Every product names what it does, what it doesn't, and where the boundary sits. We claim novelty where we have it. We call standard techniques standard.
+## Licensing And Boundaries
 
-Per-product novelty. One portfolio-wide license (Zer0pa Source-Available License) with per-product novelty schedules. Protection is honest — enumerated where the invention is, silent where it isn't.
+Zer0pa uses different licenses for different corridors.
 
-Negatives are results. When a modality or approach fails under rigorous falsification, we publish that as a first-class artefact, not a setback. A field that stops paying for the same failed experiment twice is a field that gets to move faster.
+| Corridor | Current posture |
+|---|---|
+| ZPE encoding and selected scientific pipelines | Zer0pa Source-Available License v7.1. |
+| DM3 + Genesis | Zer0pa Genesis-DM3 Research and Receipt License v1.0. |
+| Gnosis methods | Apache 2.0 code plus governance/documentation boundaries where applicable. |
+| Ship showcase repos | No public code license; default copyright, all rights reserved. |
 
-## Where Work Lives
+Canonical legal endpoint: [ZPE-License-Commercial](https://github.com/Zer0pa/ZPE-License-Commercial).
 
-Each active product is its own repository — self-contained, with its own README, CI, proof artefacts, and Verdict. The full live index follows; see each repo's README for headline metrics, comp benchmarks where applicable, and current state.
+## What We Do Not Claim
 
-### ZPE — Encoding Products (17 public lanes)
+- We do not claim one universal algorithm across the portfolio.
+- We do not claim production medical, regulatory, class, shipyard, or manufacturing approval from research repos.
+- We do not hide blocked gates or adverse results below the fold.
+- We do not treat a public README as permission to use private code, datasets, weights, CAD, raw CFD, partner material, or internal runtime systems.
 
-- [ZPE-Bio](https://github.com/Zer0pa/ZPE-Bio) — Deterministic ECG codec; Python + Rust core; 100% integrity across MIT-BIH, NSTDB, EDB, PTB-XL
-- [ZPE-Diagram](https://github.com/Zer0pa/ZPE-Diagram) — Deterministic structural-with-style diagram codec; SVG line-graph transport
-- [ZPE-FT](https://github.com/Zer0pa/ZPE-FT) — Deterministic financial time-series codec; pattern search; parquet+zstd+DuckDB comparator
-- [ZPE-Geo](https://github.com/Zer0pa/ZPE-Geo) — Deterministic geospatial trajectory codec; H3 indexing; Douglas-Peucker comparator
-- [ZPE-Image](https://github.com/Zer0pa/ZPE-Image) — Deterministic sparse-stroke image codec; geometry-layer encoding for glyphs and skeletons
-- [ZPE-Ink](https://github.com/Zer0pa/ZPE-Ink) — Deterministic digital-ink codec (`.zpink`); CRC-framed lossless stroke roundtrip
-- [ZPE-IoT](https://github.com/Zer0pa/ZPE-IoT) — Deterministic IoT sensor codec; 1D time-series; Rust core + PyO3 bindings; zstd/lz4/zlib/gorilla comparators
-- [ZPE-Mental](https://github.com/Zer0pa/ZPE-Mental) — Deterministic endogenous visual form codec; Klüver taxonomy (tunnel, spiral, lattice, cobweb)
-- [ZPE-Mocap](https://github.com/Zer0pa/ZPE-Mocap) — Deterministic motion capture codec; CMU corpus; ACL comparator
-- [ZPE-Music](https://github.com/Zer0pa/ZPE-Music) — Deterministic symbolic-score codec; MusicXML roundtrip with note-local expression refinement
-- [ZPE-Neuro](https://github.com/Zer0pa/ZPE-Neuro) — Deterministic neural signal codec; extracellular spike events; DANDI-anchored
-- [ZPE-Prosody](https://github.com/Zer0pa/ZPE-Prosody) — Deterministic speech prosody codec; F0 / energy / duration / voiced-mask contour bundles
-- [ZPE-Robotics](https://github.com/Zer0pa/ZPE-Robotics) — Deterministic motion kernel; Wire-V1 transport; replay + search-without-decode; LeRobot benchmark
-- [ZPE-Smell](https://github.com/Zer0pa/ZPE-Smell) — Deterministic smell codec; surrogate receptor-response encoding (research-in-progress)
-- [ZPE-Taste](https://github.com/Zer0pa/ZPE-Taste) — Bounded-negative evidence record (the lane object did not sustain honest geometric structure on the committed evaluation)
-- [ZPE-Touch](https://github.com/Zer0pa/ZPE-Touch) — Deterministic touch stream codec; contact + thermal + vibrotactile + proprioceptive branch isolation
-- [ZPE-XR](https://github.com/Zer0pa/ZPE-XR) — Deterministic XR hand-stream codec; pose compression; ContactPose benchmark
+## Contact
 
-Cipher and Video are in private development; Rosetta is currently incubated within Cipher and will graduate when the work matures.
+Commercial licensing, notices, and serious technical discussion: [architects@zer0pa.ai](mailto:architects@zer0pa.ai)
 
-### Computation — DM3 + Genesis
-
-- [DM3](https://github.com/Zer0pa/DM3) — Deterministic mathematical artefact on `P_95 ☐ K_4` loaded fixture; claim τ ARM64 cross-platform determinism; R8 runtime trace open
-- Genesis — Comparative determinism experiment on `P_95 ☐ K_3`; 31,560/31,560 byte-identical canonical hashes on RM10; three of four cross-lane comparisons confirmed (D₆-vs-C₃ pending; internal repository)
-
-### Zero Class — Design Physics
-
-- [ZeroShip](https://github.com/Zer0pa/ZeroShip) — Ship-first engineering platform; design-physics at ship scale
-- [Zero-Class-Vessel-Hull-20098](https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098) — Hydrogen-electric commercial freighter concept (Hull 20098)
-
-### Infrastructure
-
-- [.github](https://github.com/Zer0pa/.github) — Organization profile and community health files
-- [workflows](https://github.com/Zer0pa/workflows) — Reusable GitHub Actions workflows (release pipelines, validation surfaces)
-
----
-
-Zer0pa is a private South African deep-tech company operating as a laboratory. We publish because verifiable science in public repositories is the funding model we believe in — and because the instruments required to do foundational work no longer respect the old maps.
-
-— [architects@zer0pa.ai](mailto:architects@zer0pa.ai) · [zer0pa.ai](https://zer0pa.ai)
+Website: [zer0pa.ai](https://zer0pa.ai)
