@@ -1,7 +1,7 @@
 # Zer0pa Portfolio Public Source-of-Truth Control Index
 
 Status: `REMOTE_REMEDIATION_CONTROL_INDEX`
-Generated: `2026-05-14T17:59:08.145889+00:00`
+Generated: `2026-05-14T18:03:24.095806+00:00`
 
 This is a public remediation control index, not a claim that every repo and PyPI page has already been repaired.
 
@@ -20,7 +20,7 @@ Use this index to avoid stale recon documents while GitHub front-door and PyPI r
 | 7 | [ZPE-FT](https://github.com/Zer0pa/ZPE-FT) | [status](https://github.com/Zer0pa/ZPE-FT/blob/main/docs/CURRENT_PUBLIC_STATUS.md) | CONNECTED_STALE_PENDING_RELEASE [zpe-ft](https://pypi.org/project/zpe-ft/) 0.1.1 | Phase 06 FT-C004 missing inputs and authority truth. | Patch release recommended after GitHub metadata repair: zpe-ft 0.1.2. |
 | 8 | [ZPE-Prosody](https://github.com/Zer0pa/ZPE-Prosody) | [status](https://github.com/Zer0pa/ZPE-Prosody/blob/docs/public-truth-lane-08-zpe-prosody-2026-05-14/docs/CURRENT_PUBLIC_STATUS.md) | CONNECTED_STALE_PENDING_RELEASE [zpe-prosody](https://pypi.org/project/zpe-prosody/) 0.1.1 | PRO-C005 paused external and PRO-C006 retrieval fail. | Patch release recommended after GitHub metadata repair: zpe-prosody 0.1.2. |
 | 9 | [ZPE-Neuro](https://github.com/Zer0pa/ZPE-Neuro) | [status](https://github.com/Zer0pa/ZPE-Neuro/blob/docs/public-truth-lane-09-zpe-neuro-2026-05-14/docs/CURRENT_PUBLIC_STATUS.md) | CONNECTED_STALE_PENDING_RELEASE [zpe-neuro](https://pypi.org/project/zpe-neuro/) 0.1.1 | DANDI breadth fail; narrow DANDI/IBL evidence only. | Patch release recommended after GitHub metadata repair: zpe-neuro 0.1.2. |
-| 10 | [ZPE-Touch](https://github.com/Zer0pa/ZPE-Touch) | [status](https://github.com/Zer0pa/ZPE-Touch/blob/main/docs/CURRENT_PUBLIC_STATUS.md) | CONNECTED [zpe-touch](https://pypi.org/project/zpe-touch/) 0.1.0 | Status packet absent; package distribution breadth limited. | No immediate PyPI release unless package-visible metadata changes. |
+| 10 | [ZPE-Touch](https://github.com/Zer0pa/ZPE-Touch) | [status](https://github.com/Zer0pa/ZPE-Touch/blob/main/docs/CURRENT_PUBLIC_STATUS.md) | CONNECTED [zpe-touch](https://pypi.org/project/zpe-touch/) 0.1.0 | Package distribution breadth remains limited; README/package metadata repairs remain. | No immediate PyPI release unless package-visible metadata changes. |
 | 11 | [ZPE-Smell](https://github.com/Zer0pa/ZPE-Smell) | [status](https://github.com/Zer0pa/ZPE-Smell/blob/main/docs/CURRENT_PUBLIC_STATUS.md) | CONNECTED_STALE_PENDING_RELEASE [zpe-smell](https://pypi.org/project/zpe-smell/) 0.1.0 | Surrogate benchmark only; source/license/provenance drift. | Patch release recommended after GitHub metadata repair: zpe-smell 0.1.1. |
 | 12 | [ZPE-Taste](https://github.com/Zer0pa/ZPE-Taste) | [status](https://github.com/Zer0pa/ZPE-Taste/blob/main/docs/CURRENT_PUBLIC_STATUS.md) | CONNECTED_STALE_PENDING_RELEASE [zpe-taste](https://pypi.org/project/zpe-taste/) 0.1.0 | Evidenced-negative taste result; no positive taste codec. | Patch release recommended after GitHub metadata repair: zpe-taste 0.1.1. |
 | 13 | [ZPE-IoT](https://github.com/Zer0pa/ZPE-IoT) | [status](https://github.com/Zer0pa/ZPE-IoT/blob/main/docs/CURRENT_PUBLIC_STATUS.md) | CONNECTED_STALE_PENDING_RELEASE [zpe-iot](https://pypi.org/project/zpe-iot/) 0.1.1 | Telemetry wedge must be separated from chemosense/package-boundary noise. | Patch release recommended after GitHub metadata repair: zpe-iot 0.1.2. |
