@@ -1,0 +1,597 @@
+{
+  "evidence_boundary": "Public GitHub and public PyPI only. Local orchestration receipts are not public authority.",
+  "external_recon_readiness": "BLOCKED_PENDING_REMOTE_GITHUB_AND_PYPI_REPAIR_RECEIPTS",
+  "generated_at": "2026-05-14T17:53:02.069378+00:00",
+  "lanes": [
+    {
+      "current_blocker": "B3/search-without-decode not closed; legacy package must stay historical.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Robotics",
+      "lane": 1,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-robotics",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-robotics/",
+        "version": "0.1.1"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-robotics 0.1.2.",
+      "repo": "ZPE-Robotics",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Robotics/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "No current commercial wedge; license/version drift remains.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Ink",
+      "lane": 2,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-ink",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-ink/",
+        "version": "0.1.1"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-ink 0.1.2.",
+      "repo": "ZPE-Ink",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Ink/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Sparse-stroke scope only; PyPI/front-door status stale.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Image",
+      "lane": 3,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-image",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-image/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-image 0.1.1.",
+      "repo": "ZPE-Image",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Image/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Perception-receipt scope only; sovereign gate remains red.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Video",
+      "lane": 4,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-video",
+        "state": "CONNECTED",
+        "url": "https://pypi.org/project/zpe-video/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "No immediate PyPI release unless package-visible metadata changes.",
+      "repo": "ZPE-Video",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Video/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Symbolic score roundtrip only; corpus-scale/compression economics not current.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Music",
+      "lane": 5,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-music",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-music/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-music 0.1.1.",
+      "repo": "ZPE-Music",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Music/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "BVH archive indexing/search scope; broader playback claims not current.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Mocap",
+      "lane": 6,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-mocap",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-mocap/",
+        "version": "0.1.1"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-mocap 0.1.2.",
+      "repo": "ZPE-Mocap",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Mocap/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Phase 06 FT-C004 missing inputs and authority truth.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-FT",
+      "lane": 7,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-ft",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-ft/",
+        "version": "0.1.1"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-ft 0.1.2.",
+      "repo": "ZPE-FT",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-FT/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "PRO-C005 paused external and PRO-C006 retrieval fail.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Prosody",
+      "lane": 8,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-prosody",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-prosody/",
+        "version": "0.1.1"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-prosody 0.1.2.",
+      "repo": "ZPE-Prosody",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Prosody/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "DANDI breadth fail; narrow DANDI/IBL evidence only.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Neuro",
+      "lane": 9,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-neuro",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-neuro/",
+        "version": "0.1.1"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-neuro 0.1.2.",
+      "repo": "ZPE-Neuro",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Neuro/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Status packet absent; package distribution breadth limited.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Touch",
+      "lane": 10,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-touch",
+        "state": "CONNECTED",
+        "url": "https://pypi.org/project/zpe-touch/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "No immediate PyPI release unless package-visible metadata changes.",
+      "repo": "ZPE-Touch",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Touch/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Surrogate benchmark only; source/license/provenance drift.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Smell",
+      "lane": 11,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-smell",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-smell/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-smell 0.1.1.",
+      "repo": "ZPE-Smell",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Smell/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Evidenced-negative taste result; no positive taste codec.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Taste",
+      "lane": 12,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-taste",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-taste/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-taste 0.1.1.",
+      "repo": "ZPE-Taste",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Taste/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Telemetry wedge must be separated from chemosense/package-boundary noise.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-IoT",
+      "lane": 13,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-iot",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-iot/",
+        "version": "0.1.1"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-iot 0.1.2.",
+      "repo": "ZPE-IoT",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-IoT/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Trajectory archive/search only; AV metric inconsistency and stale PyPI.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Geo",
+      "lane": 14,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-geo",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-geo/",
+        "version": "0.1.1"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-geo 0.1.2.",
+      "repo": "ZPE-Geo",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Geo/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Synthetic diagram scope; header/stroke-width/corpus work remains.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Diagram",
+      "lane": 15,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-diagram",
+        "state": "CONNECTED",
+        "url": "https://pypi.org/project/zpe-diagram/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "No immediate PyPI release before code/status decisions.",
+      "repo": "ZPE-Diagram",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Diagram/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "ContactPose/comparator/runtime blockers remain.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-XR",
+      "lane": 16,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-xr",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-xr/",
+        "version": "0.3.1"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-xr 0.3.2.",
+      "repo": "ZPE-XR",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-XR/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Non-clinical method only; four-form/profile scope must not be overread.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Mental",
+      "lane": 17,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-mental",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-mental/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-mental 0.1.1.",
+      "repo": "ZPE-Mental",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Mental/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "STAGED ECG surface; PTB-XL, multimodal subtree, and marker policy open.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZPE-Bio",
+      "lane": 18,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-bio",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-bio/",
+        "version": "0.2.1"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-bio 0.2.2.",
+      "repo": "ZPE-Bio",
+      "status_packet_url": "https://github.com/Zer0pa/ZPE-Bio/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "PyPI scaffold only; R8/source-provenance and Genesis wording open.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/DM3",
+      "lane": 19,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zpe-dm3",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zpe-dm3/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zpe-dm3 0.1.1.",
+      "repo": "DM3",
+      "status_packet_url": "https://github.com/Zer0pa/DM3/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "No connected Zer0pa PyPI package; PyPI `genesis` is unrelated; source exposure limited.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Genesis",
+      "lane": 20,
+      "pypi": {
+        "absent_candidates": [
+          "zer0pa-genesis"
+        ],
+        "collision_candidates": [
+          "genesis"
+        ],
+        "package": null,
+        "state": "NO_CONNECTED_PACKAGE_NAME_COLLISION",
+        "url": null,
+        "version": null
+      },
+      "pypi_release_action": "Do not publish PyPI from current scope; name collision only.",
+      "repo": "Genesis",
+      "status_packet_url": "https://github.com/Zer0pa/Genesis/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "QNN/LiteRT measured unsupported; phone-side training and corpus gates open.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Polymath-AI",
+      "lane": 21,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "polymath-ai",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/polymath-ai/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: polymath-ai 0.1.1.",
+      "repo": "Polymath-AI",
+      "status_packet_url": "https://github.com/Zer0pa/Polymath-AI/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "No-code research intake; license conflict and Phase-0 gate open.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Precision-Crop-Genomics",
+      "lane": 22,
+      "pypi": {
+        "absent_candidates": [
+          "precision-crop-genomics",
+          "zer0pa-precision-crop-genomics",
+          "zer0pa-pcg"
+        ],
+        "collision_candidates": [],
+        "package": null,
+        "state": "NOT_PACKAGE_SHAPED",
+        "url": null,
+        "version": null
+      },
+      "pypi_release_action": "Do not publish PyPI from current scope; not package-shaped.",
+      "repo": "Precision-Crop-Genomics",
+      "status_packet_url": "https://github.com/Zer0pa/Precision-Crop-Genomics/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "CPU-verified scaffold; H100 enterprise authority pending; PyPI says internal.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Energy-Physics-Pipeline",
+      "lane": 23,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "energy-physics-pipeline",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/energy-physics-pipeline/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: energy-physics-pipeline 0.1.1.",
+      "repo": "Energy-Physics-Pipeline",
+      "status_packet_url": "https://github.com/Zer0pa/Energy-Physics-Pipeline/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "CPU scaffold/PyPI live; H100/L6 authority pending.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Bio-Molecular-Explorer",
+      "lane": 24,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zer0pa-biomolecular-explorer",
+        "state": "CONNECTED",
+        "url": "https://pypi.org/project/zer0pa-biomolecular-explorer/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "No immediate PyPI release unless package-visible metadata changes.",
+      "repo": "Bio-Molecular-Explorer",
+      "status_packet_url": "https://github.com/Zer0pa/Bio-Molecular-Explorer/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Structural audit only; no scientific HMO validation claim.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Synthetic-Biology",
+      "lane": 25,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zer0pa-synbio",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zer0pa-synbio/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zer0pa-synbio 0.1.1.",
+      "repo": "Synthetic-Biology",
+      "status_packet_url": "https://github.com/Zer0pa/Synthetic-Biology/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "CPU control plane; H100-backed discovery pending.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Materials-Workbench",
+      "lane": 26,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "zer0pa-materials-workbench",
+        "state": "CONNECTED_STALE_PENDING_RELEASE",
+        "url": "https://pypi.org/project/zer0pa-materials-workbench/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "Patch release recommended after GitHub metadata repair: zer0pa-materials-workbench 0.1.1.",
+      "repo": "Materials-Workbench",
+      "status_packet_url": "https://github.com/Zer0pa/Materials-Workbench/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Borrowed baselines only; D-06 owned-arm blocker.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Glyph-Engine",
+      "lane": 27,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "gnosis-glyph-engine",
+        "state": "CONNECTED_ALPHA_METADATA_INCOMPLETE",
+        "url": "https://pypi.org/project/gnosis-glyph-engine/",
+        "version": "0.1.0a1"
+      },
+      "pypi_release_action": "Alpha metadata patch recommended: gnosis-glyph-engine 0.1.0a2.",
+      "repo": "Glyph-Engine",
+      "status_packet_url": "https://github.com/Zer0pa/Glyph-Engine/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Methods benchmark; live replay/future adapter work remains.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Morph-Bench",
+      "lane": 28,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "gnosis-morph-bench",
+        "state": "CONNECTED",
+        "url": "https://pypi.org/project/gnosis-morph-bench/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "No immediate PyPI release unless package-visible metadata changes.",
+      "repo": "Morph-Bench",
+      "status_packet_url": "https://github.com/Zer0pa/Morph-Bench/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Negative-control package; governing decipherment gate remains failed.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Cuneiform",
+      "lane": 29,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "cuneiform-control",
+        "state": "CONNECTED",
+        "url": "https://pypi.org/project/cuneiform-control/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "No immediate PyPI release required.",
+      "repo": "Cuneiform",
+      "status_packet_url": "https://github.com/Zer0pa/Cuneiform/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "Search-without-decode/non-decipherment posture; legal/template leakage cleanup pending.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Indus-Valley",
+      "lane": 30,
+      "pypi": {
+        "absent_candidates": [],
+        "collision_candidates": [],
+        "package": "gnosis-indus",
+        "state": "CONNECTED",
+        "url": "https://pypi.org/project/gnosis-indus/",
+        "version": "0.1.0"
+      },
+      "pypi_release_action": "No immediate PyPI release required; GitHub-only repairs mandatory.",
+      "repo": "Indus-Valley",
+      "status_packet_url": "https://github.com/Zer0pa/Indus-Valley/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "No-code hull concept/status surface; stale latest-results pointer.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098",
+      "lane": 31,
+      "pypi": {
+        "absent_candidates": [
+          "zero-class-vessel-hull-20098"
+        ],
+        "collision_candidates": [],
+        "package": null,
+        "state": "NOT_PACKAGE_SHAPED",
+        "url": null,
+        "version": null
+      },
+      "pypi_release_action": "Do not publish PyPI from current scope; not package-shaped.",
+      "repo": "Zero-Class-Vessel-Hull-20098",
+      "status_packet_url": "https://github.com/Zer0pa/Zero-Class-Vessel-Hull-20098/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    },
+    {
+      "current_blocker": "No-code platform surface; `CITATION.cff type: software` signal must be corrected.",
+      "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md required on default branch; README/metadata repairs per lane plan.",
+      "github_url": "https://github.com/Zer0pa/ZeroShip",
+      "lane": 32,
+      "pypi": {
+        "absent_candidates": [
+          "zeroship"
+        ],
+        "collision_candidates": [],
+        "package": null,
+        "state": "NOT_PACKAGE_SHAPED",
+        "url": null,
+        "version": null
+      },
+      "pypi_release_action": "Do not publish PyPI from current scope; not package-shaped.",
+      "repo": "ZeroShip",
+      "status_packet_url": "https://github.com/Zer0pa/ZeroShip/blob/main/docs/CURRENT_PUBLIC_STATUS.md",
+      "visibility": "PUBLIC"
+    }
+  ],
+  "public_index_home": "https://github.com/Zer0pa/.github/tree/main/portfolio",
+  "status": "REMOTE_REMEDIATION_CONTROL_INDEX"
+}
