@@ -1,7 +1,7 @@
 {
   "evidence_boundary": "Public GitHub and public PyPI only. Local orchestration receipts are not public authority.",
   "external_recon_readiness": "BLOCKED_PENDING_REMOTE_GITHUB_AND_PYPI_REPAIR_RECEIPTS",
-  "generated_at": "2026-05-14T17:59:08.145889+00:00",
+  "generated_at": "2026-05-14T18:03:24.095806+00:00",
   "lanes": [
     {
       "current_blocker": "B3/search-without-decode not closed; legacy package must stay historical.",
@@ -184,7 +184,7 @@
       "visibility": "PUBLIC"
     },
     {
-      "current_blocker": "Status packet absent; package distribution breadth limited.",
+      "current_blocker": "Package distribution breadth remains limited; README/package metadata repairs remain.",
       "github_repair_state": "docs/CURRENT_PUBLIC_STATUS.md published on default branch; README/metadata repairs remain per lane plan.",
       "github_url": "https://github.com/Zer0pa/ZPE-Touch",
       "lane": 10,
