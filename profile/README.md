@@ -6,6 +6,29 @@ We sit between an applied research lab, an IP foundry, a proof-infrastructure co
 
 We direct frontier AI systems as researchers, coders, scientific operators, and adversarial thinkers across public repositories. The aim is not one universal platform. The aim is a portfolio of bounded systems that connect scientific corridors: physics, code, falsification, and nature's design patterns turned into testable artifacts.
 
+## Nature Is The Design
+
+**We are the code.**
+
+Zer0pa looks for forms nature already uses: rhythm, contour, motion, branching, recurrence, vessel pressure, molecular pathway, symbol shape, field behavior. The work is to translate those forms into bounded computational artifacts that can be inspected, tested, broken, replayed, extended, and improved without hiding the limits.
+
+## Where We Sit
+
+| Mode | What it means here |
+|---|---|
+| **Applied research lab** | Public experiments with named datasets, receipts, blockers, and negative results. |
+| **IP foundry** | Novel encoders, pipelines, and design systems developed as bounded, license-governed assets. |
+| **Proof-infrastructure company** | Status, readiness, package mechanics, non-claims, and verification surfaces treated as product. |
+| **Frontier-lab operator** | Frontier AI systems directed as researchers, coders, scientific operators, and adversarial reviewers. |
+
+Across this portfolio, rigor governs the work. Motion, music, markets, biosignals, neural events, ancient scripts, vessel design, materials, energy, and life-science pipelines are separate domains; the shared discipline is falsification.
+
+## Access Is Key
+
+We are not conventional open source. We are open for builders: generous where access creates opportunity, disciplined where scale creates monopoly.
+
+Most public surfaces are designed so indie developers, emerging ML engineers, AI builders, and scientific operators can inspect the claim, run the surface that is actually released, and build value before they need a licensing conversation.
+
 ## Readiness Standard
 
 Every public product or research front door should land in one of three states.
